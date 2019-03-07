@@ -2,7 +2,7 @@ body{
 	/*background-image: url(psd/fundo.jpg);
 	background-repeat: no-repeat;
 	background-size:100%;*/
-	margin:0
+	margin:0px
 }
 .menu_superior{
 	font-size: 25pt;
@@ -11,6 +11,10 @@ body{
 	width: 100%;
 	height:62px;
 	background-color:#151117;
+	font-family: sans-serif;
+}
+.texto_menu{
+	padding-top:20%;
 }
 .pesquisa{
 	background-color:#3d3232;
@@ -24,28 +28,37 @@ body{
 	padding: 12px 15px 15px 15px;
 }
 .nova_temporada{
-	width:33.33%;
-	height:33.33%;
+	width:32.33%;
+	height:32.33%;
 	background-color:#151117;
 	float:left;
+	padding-left:0.5%;
+	padding-right:0.5%;
 }
 .impala{
-	width:33.33%;
-	height:33.33%;
+	width:32.33%;
+	height:32.33%;
 	background-color:#3d3232;
 	float:left;
+	padding-left:0.5%;
+	padding-right:0.5%;
 }
 .classicos_rock{
-	width:33.33%;
-	height:33.33%;
+	width:32.33%;
+	height:32.33%;
 	background-color:#151117;
-	float:left;
+	float:right;
+	padding-left:0.5%;
+	padding-right:0.5%;
 }
 h1{
 	color:#ffffff;
 	font-size:26pt;
+	font-family: sans-serif;
 }
 .texto_branco{
 	color:#ffffff;
-	text-align: justify;
+	text-align: justify-all;
+	font-size: 16pt;
+	font-family: sans-serif;
 }
