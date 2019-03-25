@@ -18,8 +18,11 @@ body{
 .logo{
 	float:left;
 }
+.menu a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
 .menu ul{
-	padding-right:0;
 	float:left;
 	margin:0;
 }
