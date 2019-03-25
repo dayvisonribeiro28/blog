@@ -1,94 +1,132 @@
-*{
-	font-family: sans-serif;
+/*paleta de cores: https://coolors.co/2b262c-3d3131-6d585d-120101-0a080b*/
+@font-face{
+	font-family:supernatural;
+	src: url('fonts/supernatural.ttf');
+}
+@font-face{
+	font-family:OpenSans-Regular;
+	src: url('fonts/OpenSans-Regular.ttf');
 }
 body{
-	margin:0px
+	margin:0;
 }
-.barra_superior{
+.topo_interior{
+	background-color:#2B262C;
+	width:100%;
 	height:54px;
-	background-color:#151115;
-	color:#FFFFFF;
 }
 .logo{
 	float:left;
-	width:225px;
-	height:54px;
-}
-.menu{
-	float:left;
-	margin-left:100px;
-	margin-right:100px;
 }
 .menu ul{
+	padding-right:0;
+	float:left;
 	margin:0;
-	padding:0;
-	list-style:none;
 }
 .menu li{
+	list-style:none;
 	float:left;
-	line-height:54px;
-	font-size:18pt;
 	padding-right:15px;
 	padding-left:15px;
+	font-family:supernatural;
+	font-size:14pt;
+	color:#FFFFFF;
+	line-height:54px;
 }
 .menu li:hover{
-	background-color:#3d3131;
+	background-color:#6d585d;
 }
-.pesquisa{
-	width:54px;
-	height:54px;
-	background-color:#3d3131;
+.menumobile{
+	margin:0;
+	height:25px;
+	display:none;
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:15px;
 	float:right;
 }
+.pesquisa{
+	float:right;
+	width:54px;
+	height:54px;
+}
 .pesquisa img{
-	margin:auto;
-	padding-top:5px;
-	padding-bottom:5px;
-	padding-right:5px;
-	padding-left:5px;
-	width:44px;
-	height:44px;
-}
-.fundo img{
-	height:100%; 
-	width:100%;
-}
-.blocos_inferiores{
-	color:#FFFFFF;
 	margin:0;
-}
-.nova_temporada{
-	background-color:#151115;
-	float:left;
-	width:32.33%;
-	height:32.33%;
-	padding-right: 0.5%;
-	padding-left: 0.5%;
-	font-size:17pt;
-}
-.impala{
-	background-color:#3d3131;
-	float:left;
-	width:32.33%;
-	height:32.33%;
-	padding-right: 0.5%;
-	padding-left: 0.5%;
-	font-size:17pt;
-}
-.classicos_rock{
-	background-color:#151115;
-	float:left;
-	width:32.33%;
-	height:32.33%;
-	padding-right: 0.5%;
-	padding-left: 0.5%;
-	font-size:17pt;
-}
-.blocos_inferiores h1{
-	font-size:26pt;
-	padding-left:0.5%;
-}
-.blocos_inferiores img{
+	padding-left:15px;
+	padding-right:14px;
+	padding-top:15px;
 	width:25px;
-	height:29px;
+	height:25px;
+}
+.home{
+	width:100%;
+	background-color:#1B1B1B;
+}
+.home_interna{
+	margin:auto;
+	width:70%;
+	height:598px;
+	background-color:#1B1B1B;
+}
+.hunter img{
+	width:80%;
+	padding-top:80px;
+	padding-left:88px;
+}
+.texto{
+	width:100%;
+	font-family:supernatural;
+	font-size:24pt;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:30px;
+	letter-spacing:7px;
+}
+@media only screen and (max-width:1114px){
+	.menu ul{
+		display:none;
+	}
+	.menumobile{
+		display:block;
+	}
+	.hunter img{
+	padding-top:40px;
+	padding-left:40px;
+	}
+	.texto{
+	width:100%;
+	font-family:supernatural;
+	font-size:pt;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:15px;
+	letter-spacing:7px;
+	}
+}
+@media only screen and (max-width:822px){
+	.texto{
+	width:100%;
+	font-family:supernatural;
+	font-size:14pt;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:15px;
+	letter-spacing:7px;
+	}
+}
+@media only screen and (max-width:555px){
+	.hunter img{
+	width:100%;
+	padding-top:150px;
+	padding-left:6px;
+	}
+	.texto{
+	width:100%;
+	font-family:supernatural;
+	font-size:10pt;
+	color:#FFFFFF;
+	text-align:center;
+	margin-top:15px;
+	letter-spacing:7px;
+	}
 }
